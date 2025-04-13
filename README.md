@@ -49,3 +49,5 @@
 - docker exec -it my-mongo bash //прямое подключение к контейнеру
 - mongosh //подключение mongosh для локальной работы с системой
 - docker logs my-mongo //проверка журналов
+
+В папке docker/docker-entrypoint-initdb.d находится файл первичной инициализации БД и базовых пользователей.
